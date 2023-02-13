@@ -5,18 +5,20 @@ body {
     font-size: 15px;
     line-height: 1.5;
     color: #333;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(183, 183, 183);
     font-family: "Crimson Pro";
     margin-top: 25px;
   }
 
 .headers {
+    text-align: center;
     margin: auto;
     color: #000000; 
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .normal-text {
+    text-align: center;
     margin: auto;
     color: #000000; 
     font-size: 18px;
