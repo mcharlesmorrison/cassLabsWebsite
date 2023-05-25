@@ -43,7 +43,8 @@ html {
 
   .logo-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Adjusted alignment to align the logo at the top */
+    height: 100%; /* Added height to the logo container */
   }
 
   nav ul {
