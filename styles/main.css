@@ -20,12 +20,12 @@ html {
   
   .header-logo {
     width: 200px;
-    margin-top: 15px; /* Adjusted margin-top to raise the logo slightly */
+    margin-top: 10px;
   }
   
   .logo-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
   
   nav ul {
@@ -33,13 +33,14 @@ html {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Adjusted justification to align links on the right */
+    justify-content: flex-end;
     background-color: white;
   }
   
   .header-links {
     display: flex;
     align-items: center;
+    margin-left: auto; /* Adjusted margin to push the links to the right */
   }
   
   .header-link {
