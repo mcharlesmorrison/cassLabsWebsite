@@ -4,9 +4,19 @@ html {
     font-family: 'Crimson Pro';
   }
   
+  /* New header */
   header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
     background-color: white;
-    height: 80px; /* change this value to adjust the height of the header */
+  }
+
+  /* Old Header */
+  /* header {
+    background-color: white;
+    height: 80px; 
     position: fixed;
     top: 0;
     left: 0;
@@ -16,15 +26,16 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px 20px; /* update this line to decrease the top and bottom padding */
+    padding: 15px 20px; 
     text-align: center;
-  }
+  } */
   
   .header-title {
     font-size: 42px; /* change this value to adjust the size of the header title */
     margin: 0;
   }
   
+  /* New Header Logo */
   .header-logo {
     width: 200px;
   }
@@ -39,12 +50,27 @@ html {
   
   }
   
-  .header-link {
-    font-size: 24px; /* change this value to adjust the size of the header links */
-    font-weight: 100; /* add this line to change font weight */
-    text-decoration: none; /* add this line to remove the underline from the links */
-    color: black; /* add this line to change the color of the links */
+
+  /* New Header links */
+  .header-links {
+    display: flex;
+    align-items: center;
   }
+  
+  .header-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  /* Old Header Links */
+  /* .header-link {
+    font-size: 24px; 
+    font-weight: 100; 
+    text-decoration: none; 
+    color: black; 
+  }  */
+
   
   nav li {
     margin: 0 10px;
@@ -330,31 +356,3 @@ html {
     width: 100%
   }
   
-
-  /* comments to-do's 
-body {
-    height: 100%;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #333;
-    background-color: rgb(255, 255, 255);
-    font-family: "Crimson Pro";
-    margin-top: 10px;
-  }
-
-.headers {
-    text-align: center;
-    margin: auto;
-    color: #000000; 
-    font-size: 30px;
-}
-
-
-.img {
-    display: flex;
-    justify-content: center;
-    width: 99%;
-    transform: translate(4%, 0%)
-
-}
-*/
