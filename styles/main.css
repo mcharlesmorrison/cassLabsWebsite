@@ -39,6 +39,7 @@ html {
   /* New Header Logo */
   .header-logo {
     width: 200px;
+    margin-top: 5px; /* Adjusted margin-top to raise the logo slightly */
   }
 
   .logo-container {
@@ -129,19 +130,6 @@ html {
   
   .tripReport figure + .tripReport figure {
     margin-top: 50px; /* Adjust the value to your preference */
-  }
-  
-  .external-links {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center; /* add this line to center the external links horizontally */
-  }
-  
-  .external-links a {
-    margin: 0 10px;
-    text-decoration: none; /* add this line to remove the underline from the links */
-    color: black; /* add this line to change the color of the links */
   }
   
   /* Media queries */
