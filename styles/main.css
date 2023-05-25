@@ -40,6 +40,11 @@ html {
     width: 200px;
   }
 
+  .logo-container {
+    display: flex;
+    align-items: flex-start; /* Adjust vertical alignment of the logo */
+  }
+
   nav ul {
     list-style: none;
     margin: 0;
