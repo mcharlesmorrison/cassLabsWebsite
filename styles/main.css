@@ -11,6 +11,7 @@ html {
     justify-content: space-between;
     padding: 10px;
     background-color: white;
+    border-bottom: 1px solid #ddd; /* Add this line to create a gray line at the bottom */
   }
 
   /* Old Header */
@@ -42,7 +43,7 @@ html {
 
   .logo-container {
     display: flex;
-    align-items: flex-start; /* Adjust vertical alignment of the logo */
+    align-items: center;
   }
 
   nav ul {
