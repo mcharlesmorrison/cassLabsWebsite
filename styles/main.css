@@ -7,8 +7,8 @@ html {
 header {
   background-color: white;
   border-bottom: 2px solid #ddd;
-  padding-bottom: 60px;
-  padding-top: 10px;
+  padding-bottom: 80px;
+  padding-top: 0px;
 }
 
 .header-container {
@@ -20,7 +20,7 @@ header {
 }
 
 .header-logo {
-  width: 200px;
+  width: 175px;
   margin-top: 0px;
 }
 
