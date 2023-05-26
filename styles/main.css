@@ -92,7 +92,7 @@ img {
   /* For screens smaller than 600px */
   @media (max-width: 600px) {
     header {
-      font-size: 18px; /* Decrease the font size for the header */
+      font-size: 12px; /* Decrease the font size for the header */
       height: 60px; /* Adjust the height as needed */
     }
 
@@ -101,11 +101,11 @@ img {
     }
 
     .header-logo {
-      width: 90px; /* Decrease the width of the logo */
+      width: 60px; /* Decrease the width of the logo */
     }
 
     .header-link {
-      font-size: 16px; /* Decrease the font size for the header links */
+      font-size: 12px; /* Decrease the font size for the header links */
     }
     nav li {
       margin: 0 5px;
@@ -115,12 +115,9 @@ img {
     justify-content: flex-start; /* Adjust alignment for mobile view */
     }
     .normal-text {
-    position: static; /* Reset position to static for mobile view */
-    transform: none; /* Reset transform */
-    margin-top: 10px; /* Adjust margin as needed */
-    font-size: 6px; /* Adjust font size for mobile view */
-    width: 90%; /* Adjust width for mobile view */
-    } 
+      top: 60%; /* Adjust the vertical position */
+      font-size: 12px; /* Decrease the font size for mobile view */
+    }
   }
   
   /* For screens between 600px and 900px */
