@@ -142,105 +142,10 @@ img {
       height: 100px; /* change this value to adjust the height of the header for large screens */
     }
   }
-  
-  /* WRITING LANDING PAGE */
-  
-  .columns-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  .column-left,
-  .column-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .column-left {
-    border-right: 1px solid black;
-  }
-  
-  /* ESSAY AND STORY PAGE */
-  .essay {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: justify;
-    text-justify: inter-character;
-    justify-content: space-between;
-    width: 68%;
-    line-height: 1.5;
-  }
-  
-  .essayTitle {
-    margin-bottom: 0;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  h2 {
-    font-weight: bold;
-    color: black;
-    margin-bottom: 10px;
-    text-align: left;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .a-body {
-    color: black;
-    text-decoration: underline;
-  }
-  
-  /* TRIPS LANDING PAGE */
-  
-  .t-column {
-    flex: 1;
-    padding: 10px;
-    align-items: center;
-    box-sizing: border-box;
-    flex-direction: column;
-    text-align: left;
-  }
-  
-  .t-column-left {
-    display: flex;
-    order: 1;
-    margin-right: 20px;
-  }
-  
-  .t-column-center {
-    display: flex;
-    order: 2;
-  }
-  
-  .t-column-right {
-    display: flex;
-    order: 3;
-    margin-left: 20px;
-  }
-  
+   
   /* TRIP REPORT */
   
-  .tripReport {
+  .subPage {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -251,30 +156,30 @@ img {
     line-height: 1.5;
   }
   
-  .tripReport p {
+  .subPage p {
     text-align: justify;
     text-justify: inter-character;
     line-height: 1.5;
   }
   
-  .tripTitle {
+  .pageTitle {
     margin-bottom: 0;
     font-size: 24px;
     font-weight: bold;
   }
   
-  .tripReport figure {
+  .subPage figure {
     margin: 0;
     margin-bottom: 20px;
   }
   
-  .tripReport figcaption {
+  .subPage figcaption {
     font-style: italic;
     text-align: left;
     margin-left: 0;
   }
   /* image stuff only applied to trip reports */
-  .tripReport img {
+  .subPage img {
     width: 100%
   }
   
@@ -289,47 +194,6 @@ img {
     padding-bottom: 40px;
     display: inline-block;
   }
-  
-  /* CREATION PAGES */
-  
-  .creation {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: justify;
-    text-justify: inter-character;
-    justify-content: space-between;
-    width: 68%;
-    line-height: 1.5;
-  }
-  
-  .creation p {
-    text-align: justify;
-    text-justify: inter-character;
-    line-height: 1.5;
-  }
-  
-  .creationTitle {
-    margin-bottom: 0;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .creation figure {
-    margin: 0;
-    margin-bottom: 20px;
-  }
-  
-  .creation figcaption {
-    font-style: italic;
-    text-align: left;
-    margin-left: 0;
-  }
-  /* image stuff only applied to creation pages */
-  .creation img {
-    width: 100%
-  }
-  
 
   /* Form styling */
 
