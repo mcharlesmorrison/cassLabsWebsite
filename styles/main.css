@@ -1,94 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
 
 html {
-    font-family: 'Crimson Pro';
-  }
-  
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 10px;
-    background-color: white;
-    min-height: 50% !important;
-    border-bottom: 2px solid #ddd;
-  }
-  
-  .header-title {
-    font-size: 42px;
-    margin: 0;
-  }
-  
-  .header-logo {
-    width: 200px;
-    margin-top: 30px;
-  }
-  
-  .logo-container {
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: white;
-  }
-  
-  .header-links {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  
-  .header-link {
-    margin-right: 20px;
-    text-decoration: none;
-    color: black;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    margin-top: 100px;
-    width: 100%;
-  }
-  
-  .normal-text {
-    margin-top: 20px;
-    text-align: center;
-    color: #000000;
-    font-size: 18px;
-  }
-  
-  img {
-    width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .external-links {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .external-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: black;
-  }
+  font-family: 'Crimson Pro';
+}
+
+header {
+  background-color: white;
+  border-bottom: 2px solid #ddd;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.header-logo {
+  width: 200px;
+  margin-top: 30px;
+}
+
+.header-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-links li {
+  margin-right: 20px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: black;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.normal-text {
+  margin-top: 20px;
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.external-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.external-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
   
   .img + .img {
     margin-top: 50px; /* Adjust the value to your preference */
