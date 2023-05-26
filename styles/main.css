@@ -75,17 +75,6 @@ img {
   margin: 0 auto;
 }
 
-
-
-
-
-/* .external-links {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .external-links a {
   margin-top: 30px;
   margin: 0 10px;
@@ -93,25 +82,7 @@ img {
   color: black;
 }
 
-  
-  .img + .img {
-    margin-top: 50px; /* Adjust the value to your preference */
-  }
-  
-  .img + .tripReport figure {
-    margin-top: 50px; /* Adjust the value to your preference */
-  }
-  
-  .tripReport figure + .img {
-    margin-top: 50px; /* Adjust the value to your preference */
-  }
-  
-  .tripReport figure + .tripReport figure {
-    margin-top: 50px; /* Adjust the value to your preference */
-  }
-  
   /* Media queries */
-  
   /* For screens smaller than 600px */
   @media (max-width: 600px) {
     header {
@@ -143,7 +114,8 @@ img {
     }
   }
    
-  /* TRIP REPORT */
+
+  /* Sub Page Formatting */
   
   .subPage {
     display: flex;
