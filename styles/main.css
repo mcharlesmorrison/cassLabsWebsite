@@ -235,6 +235,7 @@ img {
     background-color: rgba(255,255,255,0.9);
     padding: .75em 1rem;
     margin-bottom: 1.5rem;
+    margin-left: .5rem
   }
   #fs-frm input:focus,
   #fs-frm select:focus,
