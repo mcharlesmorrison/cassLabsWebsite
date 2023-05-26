@@ -5,6 +5,7 @@ html {
 }
 
 header {
+  display: flex;
   background-color: white;
   border-bottom: 2px solid #ddd;
   padding-left: 10px;
