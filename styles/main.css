@@ -51,8 +51,15 @@ header {
 }
 
 .normal-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: justify;
+  text-justify: inter-character;
+  justify-content: space-between;
+  width: 80%;
+  line-height: 1.5; 
   margin-top: 20px;
-  text-align: center;
   color: #000000;
   font-size: 18px;
 }
