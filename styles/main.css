@@ -5,11 +5,10 @@ html {
 }
 
 header {
-  display: flex;
   background-color: white;
   border-bottom: 2px solid #ddd;
   padding-left: 10px;
-  padding-bottom: 9px;
+  padding-bottom: 1px;
   padding-top: 0px;
 }
 
@@ -23,7 +22,7 @@ header {
 
 .header-logo {
   width: 110px;
-  margin-top: 0px;
+  margin-top: -5px;
 }
 
 .header-links ul {
