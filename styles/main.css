@@ -21,7 +21,7 @@ html {
   
   .header-logo {
     width: 200px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   
   .logo-container {
@@ -34,14 +34,14 @@ html {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
     background-color: white;
   }
   
   .header-links {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Adjusted margin to push the links to the right */
+    margin-left: 30px;
+    margin-right: 30px;
   }
   
   .header-link {
