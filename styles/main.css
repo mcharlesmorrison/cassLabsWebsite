@@ -7,7 +7,8 @@ html {
 header {
   background-color: white;
   border-bottom: 2px solid #ddd;
-  padding-bottom: 45px;
+  padding-left: 10px;
+  padding-bottom: 9px;
   padding-top: 0px;
 }
 
@@ -20,7 +21,7 @@ header {
 }
 
 .header-logo {
-  width: 150px;
+  width: 110px;
   margin-top: 0px;
 }
 
@@ -53,22 +54,29 @@ header {
 .content-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-bottom: 50em;
 }
 
 .normal-text {
-  text-align: center;
   margin-top: 20px;
   color: #000000;
   font-size: 18px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 img {
-  width: 80%;
+  width: 70%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
+
+
+
 
 
 /* .external-links {
