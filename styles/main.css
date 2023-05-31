@@ -212,17 +212,6 @@ img {
     width: 100%
   }
   
-  
-  /* IFRAME SHITE */
-  .video-container {
-    text-align: center;
-  }
-  
-  .video-container iframe {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: inline-block;
-  }
 
   /* Form styling */
 
