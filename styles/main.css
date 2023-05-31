@@ -89,7 +89,7 @@ img {
 .video-container {
   position: relative;
   width: 75%;
-  max-width: 560px; /* Optional: Limit the maximum width of the video */
+  /* max-width: 560px; Optional: Limit the maximum width of the video */
   margin: 0 auto; /* Center the video horizontally */
   padding-bottom: 56.25%; /* 16:9 aspect ratio (9 divided by 16 multiplied by 100) */
 }
