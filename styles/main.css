@@ -178,10 +178,12 @@ img {
   /* Sub Page Formatting */
   
   .a-body {
+    margin-top: 5px; /* Adjust the value as needed */
+    margin-bottom: 9px;
     color: black;
     text-decoration: underline;
   }
-  
+
   .subPage {
     display: flex;
     flex-direction: column;
