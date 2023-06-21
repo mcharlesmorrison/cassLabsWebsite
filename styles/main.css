@@ -102,7 +102,7 @@ img {
 }
 
 .video-heading {
-  margin-bottom: 5px; /* Adjust the value as needed */
+  margin-bottom: 0px; /* Adjust the value as needed */
 }
 
 .subText-heading {
@@ -178,10 +178,10 @@ img {
   /* Sub Page Formatting */
   
   .a-body {
-    margin-top: 1px; /* Adjust the value as needed */
-    margin-bottom: 10px;
+    margin-top: 0px; /* Adjust the value as needed */
+    margin-bottom: 30px;
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   .subPage {
