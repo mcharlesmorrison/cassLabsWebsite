@@ -178,8 +178,8 @@ img {
   /* Sub Page Formatting */
   
   .a-body {
-    margin-top: 5px; /* Adjust the value as needed */
-    margin-bottom: 9px;
+    margin-top: 1px; /* Adjust the value as needed */
+    margin-bottom: 10px;
     color: black;
     text-decoration: underline;
   }
