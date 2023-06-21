@@ -177,6 +177,11 @@ img {
 
   /* Sub Page Formatting */
   
+  .a-body {
+    color: black;
+    text-decoration: underline;
+  }
+  
   .subPage {
     display: flex;
     flex-direction: column;
