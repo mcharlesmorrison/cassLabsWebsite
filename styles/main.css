@@ -130,6 +130,11 @@ img {
   margin-bottom: -12px; /* Adjust the value as needed */
 }
 
+.shopText-heading {
+  font-size: 18;
+  margin-bottom: -12px; /* Adjust the value as needed */
+}
+
 .external-links a {
   margin-top: 30px;
   margin: 0 10px;
