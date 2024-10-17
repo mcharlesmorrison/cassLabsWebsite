@@ -18,8 +18,8 @@ body {
 
 .header-container {
   display: flex;
-  flex-direction: column; /* Stack items vertically on mobile */
-  align-items: center; /* Center items horizontally */
+  justify-content: space-between; /* Default for larger screens */
+  align-items: center; /* Center items vertically */
   text-align: center; /* Center text */
   padding: 20px 15px; /* Add padding for spacing */
 }
@@ -408,5 +408,17 @@ img {
         color: black; /* Ensure text is legible */
         text-align: center; /* Center text */
         margin: 20px 0; /* Add margin for spacing */
+    }
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+    .header-logo {
+        display: block; /* Show the logo on larger screens */
+    }
+
+    .header-links {
+        display: block; /* Ensure links are displayed */
+        text-align: right;
     }
 }
