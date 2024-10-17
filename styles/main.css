@@ -54,6 +54,8 @@ body {
   padding-top: 50px;
   margin-top: 100px;
   width: 100%;
+  position: relative; /* Ensure relative positioning for child elements */
+  height: 100vh; /* Set height to full viewport height */
 }
 
 main {
@@ -181,8 +183,11 @@ img {
     }
     .main-content img {
         width: 100%; /* Ensure the image fills the screen laterally */
-        height: auto; /* Maintain aspect ratio */
+        height: 100%; /* Set height to fill the screen vertically */
         object-fit: cover; /* Cover the entire area */
+        position: absolute; /* Position the image absolutely */
+        bottom: 0; /* Align the image to the bottom of the container */
+        left: 0; /* Align the image to the left */
     }
     .normal-text {
         font-size: 16px; /* Increase font size for better readability */
