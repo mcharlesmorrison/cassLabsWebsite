@@ -147,6 +147,7 @@ img {
   /* Media queries */
   /* For screens smaller than 600px */
   @media (max-width: 600px) {
+
     header {
       font-size: 12px; /* Decrease the font size for the header */
       height: 60px; /* Adjust the height as needed */
@@ -170,6 +171,19 @@ img {
     align-items: flex-start; /* Adjust alignment for mobile view */
     justify-content: flex-start; /* Adjust alignment for mobile view */
     }
+
+    .subPage {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      text-align: left;
+      text-justify: inter-character;
+      justify-content: space-between;
+      width: 85%;
+      line-height: 1.5;
+      margin-left: 25%;
+    }
+
     .normal-text {
       top: 60%; /* Adjust the vertical position */
       font-size: 24px; /* Increase font size for better readability */
