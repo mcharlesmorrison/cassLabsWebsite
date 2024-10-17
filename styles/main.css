@@ -366,3 +366,41 @@ img {
   #fs-frm fieldset.locale select[name="state"] {
     margin-right: 3%;
   }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .header-logo {
+        width: 100%; /* Make logo larger */
+        max-width: 300px; /* Limit max size */
+        display: block; /* Center the logo */
+        margin: 0 auto; /* Center horizontally */
+    }
+
+    .header-links {
+        text-align: center; /* Center links */
+    }
+
+    .header-links ul {
+        padding: 0; /* Remove default padding */
+        list-style-type: none; /* Remove bullet points */
+    }
+
+    .header-links li {
+        margin: 10px 0; /* Space between links */
+    }
+
+    main img {
+        width: 100%; /* Make image full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .normal-text {
+        position: absolute; /* Position text over image */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for centering */
+        font-size: 2em; /* Make text larger */
+        color: white; /* Ensure text is legible */
+        text-align: center; /* Center text */
+    }
+}
