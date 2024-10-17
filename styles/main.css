@@ -227,9 +227,9 @@ img {
       text-align: left;
       text-justify: inter-character;
       justify-content: space-between;
-      width: 85%;
+      width: 90%;
       line-height: 1.5;
-      margin-left: 25%;
+      margin-left: 10%;
     }
 
     .normal-text {
@@ -260,10 +260,6 @@ img {
         left: 0; /* Align the image to the left */
     }
 
-    .subPage {
-        width: 80%; /* Set width to 80% of the screen */
-        text-align: left; /* Change text alignment to left */
-    }
   }
   
   /* For screens between 600px and 900px */
@@ -286,7 +282,7 @@ img {
   }
    
 
-  
+
 
   /* Form styling */
 
