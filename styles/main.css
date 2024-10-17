@@ -172,8 +172,9 @@ img {
     }
     .normal-text {
       top: 60%; /* Adjust the vertical position */
-      font-size: 12px; /* Decrease the font size for mobile view */
+      font-size: 24px; /* Increase font size for better readability */
     }
+
     .header-links ul {
       list-style: none;
       margin: 0;
