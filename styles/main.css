@@ -144,7 +144,55 @@ img {
   color: black;
 }
 
-  /* Media queries */
+  /* Sub Page Formatting */
+  
+  .a-body {
+    margin-top: 0px; /* Adjust the value as needed */
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .subPage {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: justify;
+    text-justify: inter-character;
+    justify-content: space-between;
+    width: 50%;
+    line-height: 1.5;
+    margin-left: 25%;
+  }
+  
+  .subPage p {
+    text-align: justify;
+    text-justify: inter-character;
+    line-height: 1.5;
+  }
+  
+  .pageTitle {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .subPage figure {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .subPage figcaption {
+    font-style: italic;
+    text-align: left;
+    margin-left: 0;
+  }
+  /* image stuff only applied to trip reports */
+  .subPage img {
+    width: 100%
+  }
+  
+    /* Media queries */
   /* For screens smaller than 600px */
   @media (max-width: 600px) {
 
@@ -238,53 +286,6 @@ img {
   }
    
 
-  /* Sub Page Formatting */
-  
-  .a-body {
-    margin-top: 0px; /* Adjust the value as needed */
-    margin-bottom: 30px;
-    color: black;
-    text-decoration: none;
-  }
-
-  .subPage {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: justify;
-    text-justify: inter-character;
-    justify-content: space-between;
-    width: 50%;
-    line-height: 1.5;
-    margin-left: 25%;
-  }
-  
-  .subPage p {
-    text-align: justify;
-    text-justify: inter-character;
-    line-height: 1.5;
-  }
-  
-  .pageTitle {
-    margin-bottom: 0;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .subPage figure {
-    margin: 0;
-    margin-bottom: 20px;
-  }
-  
-  .subPage figcaption {
-    font-style: italic;
-    text-align: left;
-    margin-left: 0;
-  }
-  /* image stuff only applied to trip reports */
-  .subPage img {
-    width: 100%
-  }
   
 
   /* Form styling */
