@@ -194,6 +194,9 @@ img {
   
   /* For screens larger than 900px */
   @media (min-width: 900px) {
+    .header-title {
+      display: none; /* Make the header title invisible for large screens */
+    }
     header {
       font-size: 48px;
       height: 100px; /* change this value to adjust the height of the header for large screens */
