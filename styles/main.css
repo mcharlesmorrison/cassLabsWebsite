@@ -18,7 +18,7 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Default for larger screens */
   align-items: center;
   /* padding: 20px 10px; */
   /* margin-top: 10px; */
@@ -369,20 +369,22 @@ img {
 
 /* Mobile styles */
 @media (max-width: 768px) {
-    .header-logo {
-        display: none; /* Hide the logo on mobile */
+    .header-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text */
+        padding: 20px 15px; /* Add padding for spacing */
     }
 
     .header-title {
+        display: block; /* Show on mobile */
         font-size: 2.5em; /* Large font size for the title */
-        text-align: center; /* Center the title */
-        color: black; /* Set title color */
-        margin: 20px 0; /* Add margin for spacing */
+        margin-bottom: 20px; /* Space below the title */
+        width: 100%; /* Full width for the title */
     }
 
     .header-links {
-        text-align: center; /* Center links */
-        margin-top: 10px; /* Add margin for spacing */
+        width: 100%; /* Full width for links */
     }
 
     .header-links ul {
@@ -390,10 +392,15 @@ img {
         list-style-type: none; /* Remove bullet points */
         display: flex; /* Use flexbox for centering */
         justify-content: center; /* Center the links */
+        flex-direction: column; /* Stack links vertically */
     }
 
     .header-links li {
-        margin: 0 10px; /* Space between links */
+        margin: 10px 0; /* Space between links */
+    }
+
+    .header-logo {
+        display: none; /* Hide the logo on mobile */
     }
 
     main img {
