@@ -179,6 +179,18 @@ img {
       padding-bottom: 0px;
       display: flex;
     }
+    .main-content img {
+        width: 100%; /* Ensure the image fills the screen laterally */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Cover the entire area */
+    }
+    .normal-text {
+        font-size: 16px; /* Increase font size for better readability */
+    }
+    .subPage {
+        width: 80%; /* Set width to 80% of the screen */
+        text-align: left; /* Change text alignment to left */
+    }
   }
   
   /* For screens between 600px and 900px */
