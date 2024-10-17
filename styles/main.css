@@ -6,7 +6,7 @@ html {
 
 header {
   background-color: white;
-  border-bottom: 2px solid #ddd; /* Gray line */
+  border-bottom: 2px solid #ddd;
   padding-left: 10px;
   padding-bottom: 0px;
   padding-top: 0px;
@@ -18,10 +18,10 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-between; /* Default for larger screens */
-  align-items: center; /* Center items vertically */
-  text-align: center; /* Center text */
-  padding: 20px 15px; /* Add padding for spacing */
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 10px; */
+  /* margin-top: 10px; */
 }
 
 .header-logo {
@@ -194,7 +194,6 @@ img {
   
   /* For screens larger than 900px */
   @media (min-width: 900px) {
-    
     header {
       font-size: 48px;
       height: 100px; /* change this value to adjust the height of the header for large screens */
@@ -367,58 +366,3 @@ img {
   #fs-frm fieldset.locale select[name="state"] {
     margin-right: 3%;
   }
-
-/* Mobile styles */
-@media (max-width: 768px) {
-    .header-title {
-        display: block; /* Show on mobile */
-        font-size: 2.5em; /* Large font size for the title */
-        margin-bottom: 20px; /* Space below the title */
-        width: 100%; /* Full width for the title */
-        text-align: center; /* Center the title */
-        color: black; /* Set title color */
-    }
-
-    .header-links {
-        width: 100%; /* Full width for links */
-    }
-
-    .header-links ul {
-        padding: 0; /* Remove default padding */
-        list-style-type: none; /* Remove bullet points */
-        display: flex; /* Use flexbox for centering */
-        justify-content: center; /* Center the links */
-        flex-direction: row; /* Arrange links horizontally */
-    }
-
-    .header-links li {
-        margin: 0 10px; /* Space between links */
-    }
-
-    .header-logo {
-        display: none; /* Hide the logo on mobile */
-    }
-
-    .normal-text {
-        position: relative; /* Change to relative to show text */
-        top: auto; /* Reset top positioning */
-        left: auto; /* Reset left positioning */
-        transform: none; /* Reset transform */
-        font-size: 1.5em; /* Adjust font size for mobile if needed */
-        color: black; /* Ensure text is legible */
-        text-align: center; /* Center text */
-        margin: 20px 0; /* Add margin for spacing */
-    }
-}
-
-/* Styles for larger screens */
-@media (min-width: 769px) {
-    .header-logo {
-        display: block; /* Show the logo on larger screens */
-    }
-
-    .header-links {
-        display: block; /* Ensure links are displayed */
-        text-align: right;
-    }
-}
