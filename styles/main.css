@@ -370,28 +370,34 @@ img {
 /* Mobile styles */
 @media (max-width: 768px) {
     .header-logo {
-        width: 100%; /* Make logo larger */
-        max-width: 300px; /* Limit max size */
-        display: block; /* Center the logo */
-        margin: 0 auto; /* Center horizontally */
+        display: none; /* Hide the logo on mobile */
+    }
+
+    .header-title {
+        font-size: 2.5em; /* Large font size for the title */
+        text-align: center; /* Center the title */
+        color: black; /* Set title color */
+        margin: 20px 0; /* Add margin for spacing */
     }
 
     .header-links {
         text-align: center; /* Center links */
+        margin-top: 10px; /* Add margin for spacing */
     }
 
     .header-links ul {
         padding: 0; /* Remove default padding */
         list-style-type: none; /* Remove bullet points */
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center the links */
     }
 
     .header-links li {
-        margin: 10px 0; /* Space between links */
+        margin: 0 10px; /* Space between links */
     }
 
     main img {
-        width: 100%; /* Make image full width */
-        height: auto; /* Maintain aspect ratio */
+        display: none; /* Hide main image on mobile */
     }
 
     .normal-text {
