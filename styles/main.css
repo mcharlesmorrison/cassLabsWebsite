@@ -369,18 +369,20 @@ img {
 
 /* Mobile styles */
 @media (max-width: 768px) {
-    .header-container {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        text-align: center; /* Center text */
-        padding: 20px 15px; /* Add padding for spacing */
-    }
-
     .header-title {
         display: block; /* Show on mobile */
         font-size: 2.5em; /* Large font size for the title */
         margin-bottom: 20px; /* Space below the title */
         width: 100%; /* Full width for the title */
+        text-align: center; /* Center the title */
+        color: black; /* Set title color */
+    }
+
+    .header-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text */
+        padding: 20px 15px; /* Add padding for spacing */
     }
 
     .header-links {
@@ -392,11 +394,11 @@ img {
         list-style-type: none; /* Remove bullet points */
         display: flex; /* Use flexbox for centering */
         justify-content: center; /* Center the links */
-        flex-direction: column; /* Stack links vertically */
+        flex-direction: row; /* Arrange links horizontally */
     }
 
     .header-links li {
-        margin: 10px 0; /* Space between links */
+        margin: 0 10px; /* Space between links */
     }
 
     .header-logo {
