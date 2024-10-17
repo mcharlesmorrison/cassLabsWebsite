@@ -6,7 +6,7 @@ html {
 
 header {
   background-color: white;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ddd; /* Gray line */
   padding-left: 10px;
   padding-bottom: 0px;
   padding-top: 0px;
@@ -18,10 +18,10 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-between; /* Default for larger screens */
-  align-items: center;
-  /* padding: 20px 10px; */
-  /* margin-top: 10px; */
+  flex-direction: column; /* Stack items vertically on mobile */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text */
+  padding: 20px 15px; /* Add padding for spacing */
 }
 
 .header-logo {
@@ -194,9 +194,7 @@ img {
   
   /* For screens larger than 900px */
   @media (min-width: 900px) {
-    .header-title {
-      display: none; /* Make the header title invisible for large screens */
-    }
+    
     header {
       font-size: 48px;
       height: 100px; /* change this value to adjust the height of the header for large screens */
@@ -381,13 +379,6 @@ img {
         color: black; /* Set title color */
     }
 
-    .header-container {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        text-align: center; /* Center text */
-        padding: 20px 15px; /* Add padding for spacing */
-    }
-
     .header-links {
         width: 100%; /* Full width for links */
     }
@@ -408,17 +399,14 @@ img {
         display: none; /* Hide the logo on mobile */
     }
 
-    main img {
-        display: none; /* Hide main image on mobile */
-    }
-
     .normal-text {
-        position: absolute; /* Position text over image */
-        top: 50%; /* Center vertically */
-        left: 50%; /* Center horizontally */
-        transform: translate(-50%, -50%); /* Adjust for centering */
-        font-size: 2em; /* Make text larger */
-        color: white; /* Ensure text is legible */
+        position: relative; /* Change to relative to show text */
+        top: auto; /* Reset top positioning */
+        left: auto; /* Reset left positioning */
+        transform: none; /* Reset transform */
+        font-size: 1.5em; /* Adjust font size for mobile if needed */
+        color: black; /* Ensure text is legible */
         text-align: center; /* Center text */
+        margin: 20px 0; /* Add margin for spacing */
     }
 }
