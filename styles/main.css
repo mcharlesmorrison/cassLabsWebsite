@@ -82,7 +82,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%); /* Center both horizontally and vertically */
   color: white;
-  font-size: 36px;
+  font-size: 30px;
   width: 80%;
   text-align: center;
   margin-top: 20px;
