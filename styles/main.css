@@ -163,6 +163,103 @@ img {
     line-height: 1.5;
     margin-left: 25%;
   }
+
+  .subPage.wide {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  /* Research grid */
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 16px;
+  }
+
+  .project-tile {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: white;
+  }
+
+  .tile-thumb {
+    position: relative;
+    cursor: pointer;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #111;
+    flex-shrink: 0;
+  }
+
+  .tile-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.2s, transform 0.3s;
+  }
+
+  .tile-thumb:hover img {
+    opacity: 0.75;
+    transform: scale(1.02);
+  }
+
+  .play-btn {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+
+  .play-btn span {
+    width: 48px;
+    height: 48px;
+    background: rgba(255,255,255,0.92);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+
+  .play-btn span::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent black;
+    margin-left: 4px;
+  }
+
+  .tile-info {
+    padding: 16px 18px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tile-info .a-body {
+    flex: 1;
+    margin-bottom: 10px;
+  }
+
+  .tile-info .pinkbike-badge {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .project-tile .video-container {
+    border-radius: 0;
+    box-shadow: none;
+  }
   
   .subPage p {
     text-align: justify;
@@ -250,6 +347,15 @@ img {
       position: absolute;
       bottom: 0;
       left: 0;
+    }
+
+    .research-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .subPage.wide {
+      width: auto;
+      margin-left: 0;
     }
   }
 
