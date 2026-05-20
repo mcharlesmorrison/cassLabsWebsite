@@ -2,37 +2,36 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7KEJF0P7ML"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7KEJF0P7ML"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-7KEJF0P7ML');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Cass Labs LLC</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/image/cassFavicon.ico">
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YVMF05ZFTS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'G-7KEJF0P7ML');
+    gtag('config', 'G-YVMF05ZFTS');
   </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cass Labs LLC</title>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/image/cassFavicon.ico">
-  </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YVMF05ZFTS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YVMF05ZFTS');
-</script>
   <body>
     <header>
       <div class="header-container">
         <div class="logo-container">
-          <a href="/index.html"><img class="header-logo" src="/image/cassLabs.png" alt="cassLabs.png"></a>
+          <a href="/index.html"><img class="header-logo" src="/image/cassLabs.png" alt="Cass Labs"></a>
         </div>
-    
         <div class="header-links">
           <ul>
             <li><a class="header-link" href="/pages/research.html">research</a></li>
@@ -43,22 +42,42 @@
         </div>
       </div>
     </header>
-    <main>
-      
-      <p></p>
 
-      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mgebblze" method="post">
-        <fieldset id="fs-frm-inputs">
-          <label for="full-name">Full Name</label>
-          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-          <label for="email-address">Email Address</label>
-          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-          <label for="message">Message</label>
-          <textarea type="message" rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-        </fieldset>
-        <input type="submit" value="Submit">
-      </form>
+    <main>
+      <div class="subPage">
+        <h1 class="pageTitle">Contact</h1>
+        <p class="contact-intro">Have a project in mind? Reach out and we'll get back to you.</p>
+
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mgebblze" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <label for="message">Message</label>
+            <textarea rows="6" name="message" id="message" placeholder="Tell us about your project." required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
     </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-top">
+          <span class="footer-brand">Cass Labs LLC</span>
+          <nav class="footer-nav">
+            <a href="/pages/research.html">Research</a>
+            <a href="/pages/services.html">Services</a>
+            <a href="/pages/about.html">About</a>
+            <a href="/pages/contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2025 Cass Labs LLC</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
