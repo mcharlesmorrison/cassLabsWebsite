@@ -341,7 +341,8 @@ img {
   #fs-frm [type="text"],
   #fs-frm [type="email"],
   #fs-frm [type="message"] {
-    width: 90%;
+    width: 100%;
+    margin-left: 0;
   }
   #fs-frm [type="button"],
   #fs-frm [type="submit"],
@@ -400,3 +401,23 @@ img {
   #fs-frm fieldset.locale select[name="state"] {
     margin-right: 3%;
   }
+
+/* Pinkbike badge */
+.pinkbike-badge {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 12px;
+  border-radius: 2px;
+  margin-bottom: 16px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.pinkbike-badge:hover {
+  background-color: black;
+  color: white;
+}
